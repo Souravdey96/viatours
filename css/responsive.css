@@ -1,0 +1,432 @@
+@media screen and (max-width: 1200px) {
+    .banner{
+        background: url(../IMG/banner-abs.png) no-repeat center center/cover;
+    }
+    .banner .container .row #banner-abs{
+        display: none;
+    }
+
+    .banner .container .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .container .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .container .col-50 .col-head-layout{
+        max-width: 100%;
+        flex: 0 0 100%;
+        background-color: #ffffff8d;
+    }
+    .banner .container .col-50 .col-head-layout .col-20{
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding-block: 10px;
+    }
+    .banner .container .col-50 .col-head-layout .search{
+        margin-top: 10px;
+    }
+    .banner .container .col-50 .col-head-layout .search a{
+        padding: 20px;
+    }
+    .banner .container .col-50 .col-head-layout .col-20 .col-p{
+        font-size: 16px;
+    }
+
+    .popular .container .row .pop-layout .col-20{
+        max-width: 30%;
+        flex: 0 0 30%;
+        padding: 10px 15px;
+    }
+
+    .featured .container .row .feat-layout .col-30{
+        max-width: 30%;
+        flex: 0 0 30%;
+        margin: 0 8px;
+        /* position: unset; */
+    }
+
+    .featured .container .row .feat-layout .col-30 .col-30-a i{
+        left: -15px;
+    }
+
+    .featured .container .row .feat-layout .col-30 .col-30-b p:nth-child(2){
+        position: relative;
+        left: -15px;
+    }
+
+    .grab .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grab .container .row .col-50 figure{
+        width: unset;
+    }
+
+    .grab #grab-right{
+        background: url(../IMG/grab-right.png)no-repeat center center/cover;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .grab #grab-right img{
+        display: none;
+    }
+
+    .grab .col-50 h2{
+        margin-inline: unset;
+    }
+    .grab .col-50 p{
+        margin-inline: unset;
+        padding-inline: unset;
+        text-align: center;
+    }
+    .grab .col-50 a{
+        margin-inline: unset;
+    }
+
+    .articles .container .row .art-layout .col-30{
+        position: relative;
+        max-width: 35%;
+        flex: 0 0 35%;
+        margin: 0 30px;
+        padding: unset;
+        right: 30px;
+    }
+
+    .subscribe .container-fluid .row .col-50 h2{
+        margin-inline: 96px;
+    }
+
+    .subscribe .container-fluid .row .col-50 p{
+        margin-inline: 96px;
+    }
+
+    .subscribe .container-fluid .row .col-50 .col-50-input{
+        margin-inline: 96px !important;   
+        padding-top: 45px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .trending .container .row .trend-layout .col-20{
+        max-width: 30%;
+        flex: 0 0 30%;
+        margin: 10px;
+    }
+
+    .subscribe{
+        min-height: 492px;
+        background-position: 100% !important;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .banner .container .row .col-50 .col-heading h1{
+        font-size: 50px;
+        line-height: 1.2;
+    }
+    .banner .container .row .col-50 .col-1 span{
+        font-size: 14px;
+        color: white;
+    }
+    .banner .container .col-50 .col-head-layout .col-20{
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding-block: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .container .col-50 .col-head-layout .search a{
+        position: relative;
+        left: 150%;
+        bottom: 60%;
+    }
+
+    .popular .container .row .pop-layout .col-20{
+        max-width: 40%;
+        flex: 0 0 40%;
+        padding: 10px 15px;
+    }
+
+    .featured .container .row .feat-layout .col-30{
+        max-width: 40%;
+        flex: 0 0 40%;
+        margin: 0 8px;
+    }
+
+    .featured .container .row .feat-layout .col-30 .col-30-a i{
+        left: 15px;
+    }
+
+    .featured .container .row .feat-layout .col-30 .col-30-b p:nth-child(2){
+        position: relative;
+        left: 15px;
+    }
+
+    .grab .col-50 h2{
+        font-size: 29px;
+        text-align: center;
+    }
+
+    .trending .container .row .trend-layout .col-20{
+        max-width: 40%;
+        flex: 0 0 40%;
+        margin: 10px;
+    }
+
+    .reviews .container .row .heading p.tours{
+        margin-inline: 105px;
+    }
+
+    .articles .container .row .art-layout .col-30{
+        position: relative;
+        max-width: 45%;
+        flex: 0 0 45%;
+        margin: 0 30px;
+        padding: unset;
+        right: 30px;
+    }
+
+    .subscribe .container-fluid .row .col-50 h2{
+        margin-inline: 5px;
+        text-align: center;
+    }
+
+    .subscribe .container-fluid .row .col-50 p{
+        margin-inline: 5px;
+        color: white;
+        text-align: center;
+    }
+
+    .subscribe .container-fluid .row .col-50 .col-50-input{
+        margin-inline: 5px !important;   
+        padding-top: 45px;
+        display: flex;
+        align-items: center;
+    }
+
+    .subscribe .container-fluid .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subscribe .container-fluid .row .col-50 .col-50-input a{
+        left: 50%;
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .banner .container .row .col-50 .col-heading h1 {
+        font-size: 50px;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .banner .container .col-50 .col-head-layout .search a{
+        position: relative;
+        left: 100%;
+        bottom: 60%;
+    }
+
+    .popular .container .row .pop-layout .col-20{
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 10px 15px;
+    }
+
+    .featured .container .row .feat-layout .col-30{
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin: 0 8px;
+    }
+
+    .featured .container .row .feat-layout .col-30 .col-30-a i{
+        left: 15px;
+    }
+
+    .featured .container .row .feat-layout .col-30 .col-30-b p:nth-child(2){
+        position: relative;
+        left: 15px;
+    }
+
+    .trending .container .row .trend-layout .col-20{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin: 10px;
+    }
+
+    .reviews .container .row .heading p.tours {
+        margin-inline: 19px;
+    }
+
+    .reviews .container .row .heading .people .clients img.clients-a{
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+
+    .articles .container .row .art-layout .col-30{
+        position: relative;
+        max-width: 70%;
+        flex: 0 0 70%;
+        margin: 0 30px;
+        padding: unset;
+        right: 30px;
+    }
+
+    .subscribe .container-fluid .row .col-50 .col-50-input a{
+        left: 17% !important;
+        padding: 20px 20px;
+        top: 115px;
+    }
+
+    .subscribe .container-fluid .row .col-50 .col-50-input input{
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .banner .container .row .col-50 .col-1 span {
+        font-size: 11px;
+        color: white;
+    }
+    .banner .container .row .col-50 .col-heading h1 {
+            font-size: 50px;
+            line-height: 1.2;
+            text-align: center;
+            color: wheat;
+    }
+    .banner .container .col-50 .col-head-layout .search a{
+        position: relative;
+        left: 70%;
+        bottom: 60%;
+    }
+
+    .featured .container .row .feat-layout .col-30{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin: 0 8px;
+    }
+
+    .featured .container .row .feat-layout .col-30 figure{
+        width: unset;
+    }
+
+    .featured .container .row .feat-layout .col-30 img{
+        width: 100%;
+    }
+    
+    .articles .container .row .art-layout .col-30{
+        position: relative;
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin: 0 30px;
+        padding: unset;
+        left: 10px;
+    }
+
+    .articles .container .row .art-layout .col-30 .col-30-head figure{
+        width: unset;
+    }
+
+    .articles .container .row .art-layout .col-30 .col-30-head figure img{
+        width: 100%;
+    }
+
+    .subscribe .container-fluid .row .col-50 h2{
+        margin-inline: 5px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .subscribe{
+        background-position: 100%;
+    }
+
+    .subscribe .container-fluid .row .col-50 .col-50-input input{
+        margin-bottom: 80px;
+        width: 120%;
+    }
+
+    .subscribe .container-fluid .row .col-50 .col-50-input a{
+        left: 10%;
+        padding: 20px 20px;
+        top: 115px;
+    }
+    .speak .container .row .heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .banner .container .row .col-50 .col-1 span {
+        font-size: 8px;
+        color: white;
+    }
+    .banner .container .row .col-50 .col-heading h1 {
+        font-size: 40px;
+        line-height: 1.2;
+        text-align: center;
+        color: wheat;
+    }
+    .banner .container .col-50 .col-head-layout .col-20 .col-p {
+        font-size: 13px;
+    }
+    .banner .container .col-50 .col-head-layout .search a{
+        position: relative;
+        left: 40%;
+        bottom: 60%;
+    }
+
+    .subscribe .container-fluid .row .col-50 h2{
+        margin-inline: 5px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .subscribe .container-fluid .row .col-50 .col-50-input a{
+        left: 3% !important;
+        padding: 20px 20px;
+        top: 115px;
+    }
+
+
+    .subscribe .container-fluid .row .col-50 .col-50-input input::placeholder{
+        padding-left: 20px;
+        color: white;
+        font-size: 10px;
+    }
+
+    .subscribe .container-fluid .row .col-50 .col-50-input input{
+        padding-block: 15px;
+    }
+
+    .speak .container .row .heading h2{
+        font-size: 15px;
+    }
+
+    .speak .container .row .heading a{
+        font-size: 12px;
+    }
+}
